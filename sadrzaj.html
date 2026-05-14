@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="bs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oprema – Apex Movement</title>
+    <link rel="stylesheet" href="css/tptpstil.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+  <div id="vrh"></div>
+
+    <!-- ===== HEADER ===== -->
+    <header class="zaglavlje">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo_apex.png" alt="Apex Movement logo" />
+        </a>
+      </div>
+      <nav class="glavni-meni" aria-label="Glavna navigacija">
+        <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="sadrzaj.html" class="aktivan">Oprema</a></li>
+          <li><a href="kontakti.html">Kontakt</a></li>
+          <li><a href="https://github.com/username/GrupaX-TPTP-2026" target="_blank" rel="noopener" class="github-link">GitHub</a></li>
+        </ul>
+      </nav>
+      <div class="zaglavlje-desno">
+        <button id="dark-mode-toggle" aria-label="Prebaci tamni/svjetli mod">Dark / Light</button>
+        <div class="social">
+          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.733-8.835L1.254 2.25H8.08l4.259 5.629L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="isporuka">
+      <p>BESPLATNA ISPORUKA na teritoriji BiH za sve narudžbe preko 99 KM &nbsp;|&nbsp; 30 dana povrat robe</p>
+    </div>
+
+    <!-- ===== BOOKMARK NAVIGACIJA ===== -->
+    <nav class="bookmark-nav" aria-label="Bookmark navigacija po stranici">
+      <a href="#pregled">Pregled</a>
+      <a href="#galerija">Galerija</a>
+      <a href="#cjenik">Cjenik</a>
+      <a href="#prednosti">Prednosti</a>
+      <a href="#mapa-brenda">Brendovi</a>
+    </nav>
+
+    <!-- ===== SEKCIJA: PREGLED ===== -->
+    <section id="pregled" class="sadrzaj-sekcija">
+      <div class="sekcija-zaglavlje">
+        <h2>Kompletna ponuda opreme</h2>
+        <p>Sve što ti treba za vrhunske performanse – na jednom mjestu.</p>
+      </div>
+
+      <div class="ugnijezdena-lista-wrapper">
+        <h3>Naše kategorije opreme</h3>
+        <ul class="ugnijezdena-lista">
+          <li>Obuća
+            <ul>
+              <li>Trčanje
+                <ul>
+                  <li>Neutralne patike</li>
+                  <li>Stability patike</li>
+                  <li>Carbon-plate patike</li>
+                </ul>
+              </li>
+              <li>Teretana
+                <ul>
+                  <li>CrossFit patike</li>
+                  <li>Powerlifting patike</li>
+                </ul>
+              </li>
+              <li>Outdoor / Trail
+                <ul>
+                  <li>Trail running</li>
+                  <li>Hiking</li>
+                </ul>
+              </li>
+              <li>Timski sport
+                <ul>
+                  <li>Fudbal</li>
+                  <li>Košarka</li>
+                  <li>Odbojka</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Odjeća
+            <ul>
+              <li>Majice
+                <ul>
+                  <li>Kratki rukav</li>
+                  <li>Dugi rukav</li>
+                  <li>Kompresijska majica</li>
+                </ul>
+              </li>
+              <li>Jakne i vjetrovke
+                <ul>
+                  <li>Šuškave jakne</li>
+                  <li>Softshell jakne</li>
+                </ul>
+              </li>
+              <li>Helanke i šorts</li>
+            </ul>
+          </li>
+          <li>Zaštitna oprema
+            <ul>
+              <li>Rukavice
+                <ul>
+                  <li>Golmanske rukavice</li>
+                  <li>Bokserske rukavice</li>
+                  <li>Rukavice za teretanu</li>
+                </ul>
+              </li>
+              <li>Štitnici i pojasevi</li>
+              <li>Naočale i kacige</li>
+            </ul>
+          </li>
+          <li>Oprema i dodaci
+            <ul>
+              <li>Uložci za patike
+                <ul>
+                  <li>Ortopedski uložci</li>
+                  <li>Gel uložci</li>
+                  <li>Termo uložci</li>
+                </ul>
+              </li>
+              <li>Čarape i trake</li>
+              <li>Narukvice i pulsometri</li>
+              <li>Ruksaci i torbe</li>
+              <li>Boce i bidoni</li>
+              <li>Skipping vijače</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== GALERIJA ===== -->
+    <section id="galerija" class="sadrzaj-sekcija galerija-sekcija">
+      <div class="sekcija-zaglavlje">
+        <h2>Galerija</h2>
+        <p>Pogledaj našu aktuelnu kolekciju – patike, odjeća, rukavice i dodaci:</p>
+      </div>
+      <div class="galerija-grid">
+
+        <!-- PATIKE -->
+        <figure class="galerija-item">
+          <img src="images/proizvod1.jpg" alt="Nike Air Zoom Pegasus 40 – bijele trkačke patike, bočni pogled" loading="lazy" />
+          <figcaption>Nike Air Zoom Pegasus 40</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/proizvod2.jpg" alt="Adidas Ultraboost 22 – crne patike sa Boost đonom" loading="lazy" />
+          <figcaption>Adidas Ultraboost 22</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/proizvod3.jpg" alt="Salomon XT-6 Advanced – sivo-zelene trail patike" loading="lazy" />
+          <figcaption>Salomon XT-6 Advanced</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/proizvod4.jpg" alt="Nike Mercurial Vapor 15 – plave fudbalske kopačke" loading="lazy" />
+          <figcaption>Nike Mercurial Vapor 15</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/proizvod5.jpg" alt="New Balance Fresh Foam X 1080v13 – sive patike" loading="lazy" />
+          <figcaption>NB Fresh Foam X 1080v13</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/proizvod6.jpg" alt="Under Armour HOVR Phantom 3 – crno-crvene patike" loading="lazy" />
+          <figcaption>UA HOVR Phantom 3</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/proizvod7.jpg" alt="Reebok Nano X3 – CrossFit patike" loading="lazy" />
+          <figcaption>Reebok Nano X3</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/proizvod8.jpg" alt="Hoka Speedgoat 5 – narandžaste trail patike" loading="lazy" />
+          <figcaption>Hoka Speedgoat 5</figcaption>
+        </figure>
+
+        <!-- ODJEĆA -->
+        <figure class="galerija-item">
+          <img src="images/majica_nike.jpg" alt="Nike Dri-FIT sportska majica kratkih rukava, crna" loading="lazy" />
+          <figcaption>Nike Dri-FIT majica</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/majica_adidas.jpg" alt="Adidas Techfit kompresijska majica dugih rukava, plava" loading="lazy" />
+          <figcaption>Adidas Techfit majica</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/jakna_suskavc.jpg" alt="Nike Windrunner šuškava jakna, sivo-bijela, lagana vjetrovka" loading="lazy" />
+          <figcaption>Nike Windrunner jakna</figcaption>
+        </figure>
+
+        <!-- RUKAVICE -->
+        <figure class="galerija-item">
+          <img src="images/rukavice_golmanske.jpg" alt="Nike Vapor Grip 3 – golmanske rukavice, crveno-crne" loading="lazy" />
+          <figcaption>Nike Vapor Grip 3 – Golmanske</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/rukavice_bokserske.jpg" alt="Everlast Pro Style – bokserske rukavice, crvene, 12oz" loading="lazy" />
+          <figcaption>Everlast Pro Style – Bokserske</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/rukavice_teretana.jpg" alt="Under Armour Resistor 3.0 – rukavice za teretanu" loading="lazy" />
+          <figcaption>UA Resistor 3.0 – Teretana</figcaption>
+        </figure>
+
+        <!-- ULOŽCI I DODACI -->
+        <figure class="galerija-item">
+          <img src="images/ulozci_gel.jpg" alt="Sof Sole Athlete – gel uložci za sportske patike" loading="lazy" />
+          <figcaption>Sof Sole Athlete – Gel uložci</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/ulozci_ortopedski.jpg" alt="Superfeet Green – ortopedski uložci za patike" loading="lazy" />
+          <figcaption>Superfeet Green – Ortopedski</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/torba_sport.jpg" alt="Nike Brasilia 9.5 – sportska torba, crna, 60L" loading="lazy" />
+          <figcaption>Nike Brasilia 9.5 – Torba</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/vijaca_sport.jpg" alt="Jumping rope skipping vijača za trening, crna" loading="lazy" />
+          <figcaption>Skipping vijača – Trening</figcaption>
+        </figure>
+        <figure class="galerija-item">
+          <img src="images/boca_sport.jpg" alt="Hydro Flask 32oz – sportska boca za vodu, plava" loading="lazy" />
+          <figcaption>Hydro Flask 32oz – Boca</figcaption>
+        </figure>
+
+      </div>
+      <a href="#vrh" class="skok-na-vrh">↑ Skoči na vrh</a>
+    </section>
+
+    <!-- ===== TABELA CJENIK ===== -->
+    <section id="cjenik" class="sadrzaj-sekcija">
+      <div class="sekcija-zaglavlje">
+        <h2>Pregled cijena i specifikacija</h2>
+        <p>Detaljne karakteristike svih modela:</p>
+      </div>
+      <div class="tabela-wrapper">
+        <table class="cjenik-tabela" aria-label="Tabela cijena sportske opreme Apex Movement">
+          <thead>
+            <tr>
+              <th scope="col">Model</th>
+              <th scope="col">Kategorija</th>
+              <th scope="col">Tehnologija / Materijal</th>
+              <th scope="col">Težina / Veličina</th>
+              <th scope="col">Cijena (KM)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- PATIKE -->
+            <tr>
+              <td>Nike Air Zoom Pegasus 40</td>
+              <td>Patike – Trčanje</td>
+              <td>Air Zoom, React foam</td>
+              <td>284g</td>
+              <td>259</td>
+            </tr>
+            <tr>
+              <td>Adidas Ultraboost 22</td>
+              <td>Patike – Teretana</td>
+              <td>Boost, Primeknit+</td>
+              <td>310g</td>
+              <td>235</td>
+            </tr>
+            <tr>
+              <td>Salomon XT-6 Advanced</td>
+              <td>Patike – Outdoor</td>
+              <td>Contragrip MA, OrthoLite</td>
+              <td>320g</td>
+              <td>389</td>
+            </tr>
+            <tr>
+              <td>Nike Mercurial Vapor 15</td>
+              <td>Patike – Fudbal</td>
+              <td>Vaporposite+, ACC</td>
+              <td>185g</td>
+              <td>345</td>
+            </tr>
+            <tr>
+              <td>UA HOVR Phantom 3</td>
+              <td>Patike – Akcija</td>
+              <td>HOVR, Connected</td>
+              <td>302g</td>
+              <td class="cijena-akcija">199</td>
+            </tr>
+            <!-- ODJEĆA -->
+            <tr>
+              <td>Nike Dri-FIT majica</td>
+              <td>Odjeća – Majica</td>
+              <td>Dri-FIT poliester</td>
+              <td>XS / S / M / L / XL</td>
+              <td>59</td>
+            </tr>
+            <tr>
+              <td>Adidas Techfit majica</td>
+              <td>Odjeća – Majica</td>
+              <td>Techfit kompresija</td>
+              <td>XS / S / M / L / XL</td>
+              <td>75</td>
+            </tr>
+            <tr>
+              <td>Nike Windrunner jakna</td>
+              <td>Odjeća – Jakna</td>
+              <td>Šuškavac, vjetronepropusna</td>
+              <td>S / M / L / XL / XXL</td>
+              <td>149</td>
+            </tr>
+            <!-- RUKAVICE -->
+            <tr>
+              <td>Nike Vapor Grip 3</td>
+              <td>Rukavice – Golmanske</td>
+              <td>Grip3 latex, Spyne zone</td>
+              <td>Vel. 8–11</td>
+              <td>149</td>
+            </tr>
+            <tr>
+              <td>Everlast Pro Style</td>
+              <td>Rukavice – Bokserske</td>
+              <td>Syntek leather, foam</td>
+              <td>12oz / 14oz</td>
+              <td>89</td>
+            </tr>
+            <tr>
+              <td>UA Resistor 3.0</td>
+              <td>Rukavice – Teretana</td>
+              <td>Mesh, silikon grip</td>
+              <td>S / M / L / XL</td>
+              <td>49</td>
+            </tr>
+            <!-- ULOŽCI I DODACI -->
+            <tr>
+              <td>Sof Sole Athlete Gel</td>
+              <td>Uložci – Gel</td>
+              <td>Gel peta i prednji dio</td>
+              <td>Universalni</td>
+              <td>35</td>
+            </tr>
+            <tr>
+              <td>Superfeet Green</td>
+              <td>Uložci – Ortopedski</td>
+              <td>Biomechanical shape</td>
+              <td>36–48</td>
+              <td>65</td>
+            </tr>
+            <tr>
+              <td>Nike Brasilia 9.5</td>
+              <td>Torba – Sportska</td>
+              <td>Polyester, odvojeni džep</td>
+              <td>60L</td>
+              <td>79</td>
+            </tr>
+            <tr>
+              <td>Skipping vijača</td>
+              <td>Oprema – Trening</td>
+              <td>Čeličan kabel, PVC ručke</td>
+              <td>Podesiva dužina</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Hydro Flask 32oz</td>
+              <td>Boca – Sportska</td>
+              <td>18/8 čelik, vakuum</td>
+              <td>946ml</td>
+              <td>89</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <a href="#podnozje" class="skok-na-vrh">↓ Skoči na dno</a>
+    </section>
+
+    <!-- ===== PREDNOSTI ===== -->
+    <section id="prednosti" class="sadrzaj-sekcija">
+      <div class="sekcija-zaglavlje">
+        <h2>Zašto Apex Movement?</h2>
+      </div>
+      <div class="prednosti-grid">
+        <div class="prednost">
+          <span class="prednost-ikona">🏆</span>
+          <h3>Profesionalna selekcija</h3>
+          <p>Svaki proizvod ručno odabran od strane naših sportskih stručnjaka.</p>
+        </div>
+        <div class="prednost">
+          <span class="prednost-ikona">✅</span>
+          <h3>Originalna roba</h3>
+          <p>100% originalni brendovi s garancijom proizvođača.</p>
+        </div>
+        <div class="prednost">
+          <span class="prednost-ikona">📦</span>
+          <h3>Brza isporuka</h3>
+          <p>Dostava 24-48h unutar BiH. Besplatno za narudžbe iznad 99 KM.</p>
+        </div>
+        <div class="prednost">
+          <span class="prednost-ikona">↩️</span>
+          <h3>30 dana povrat</h3>
+          <p>Nisi zadovoljan? Vrati bez pitanja u roku od 30 dana.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== IMAGE MAP – BRENDOVI ===== -->
+    <section id="mapa-brenda" class="sadrzaj-sekcija">
+      <div class="sekcija-zaglavlje">
+        <h2>Naši brendovi – klikni na logo</h2>
+        <p>Svaki logo te odvodi na zvaničnu stranicu brenda:</p>
+      </div>
+      <div class="image-map-wrapper">
+        <img
+          src="images/brendovi-banner.jpg"
+          alt="Brendovi u ponudi Apex Movement: Adidas, Puma, Nike, New Balance"
+          usemap="#mapa-brendova"
+          style="width:100%; max-width:800px; display:block; margin:0 auto;"
+        />
+        <map name="mapa-brendova">
+          <area shape="rect" coords="0,0,200,100" href="https://www.adidas.com" alt="Adidas" target="_blank" rel="noopener" />
+          <area shape="rect" coords="201,0,400,100" href="https://www.puma.com" alt="Puma" target="_blank" rel="noopener" />
+          <area shape="rect" coords="401,0,600,100" href="https://www.nike.com" alt="Nike" target="_blank" rel="noopener" />
+          <area shape="rect" coords="601,0,800,100" href="https://www.newbalance.com" alt="New Balance" target="_blank" rel="noopener" />
+        </map>
+      </div>
+      <a href="#vrh" class="skok-na-vrh">↑ Skoči na vrh</a>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="podnozje" id="podnozje">
+      <div class="podnozje-sadrzaj">
+        <div class="podnozje-logo">
+          <img src="images/logo_apex.png" alt="Apex Movement logo" />
+          <p>Step Into Performance.</p>
+        </div>
+        <div class="podnozje-nav">
+          <h4>Navigacija</h4>
+          <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="sadrzaj.html">Oprema</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="podnozje-social">
+          <h4>Pratite nas</h4>
+          <div class="social">
+            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.733-8.835L1.254 2.25H8.08l4.259 5.629L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="podnozje-autori">
+          <h4>Autori</h4>
+          <p>Ajdin Mehaković</p>
+          <p>Ajla Haskić</p>
+          <p>Ajdin Mehmedović</p>
+        </div>
+      </div>
+      <div class="podnozje-bottom">
+        <p>© 2026 Apex Movement. Sva prava zadržana. | TPTP Projekat – Akademska godina 2025/2026</p>
+      </div>
+    </footer>
+
+    <script src="js/tptpskripte.js"></script>
+  </body>
+</html>
