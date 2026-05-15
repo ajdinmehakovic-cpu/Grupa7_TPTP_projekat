@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   animirajBrojac('posjetilaca-brojac', posjetilaca, 1200);
   animirajBrojac('narudzbi-danas', narudzbi, 900);
-  animirajBrojac('dostupno-artikala', artikala, 1500);
+  animirajBrojac('dostupno-artikala', artikala, 1200);
 
 
   /* ============================================================
