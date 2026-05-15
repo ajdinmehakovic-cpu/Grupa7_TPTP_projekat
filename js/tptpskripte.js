@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (document.body.classList.contains('light-mode')) {
         localStorage.setItem('apex-mod', 'light');
       } else {
-        localStorage.setItem('apex-mod', 'dark');
+        localStorage.setItem('apex-mod', 'dark'); 
       }
     });
   }
