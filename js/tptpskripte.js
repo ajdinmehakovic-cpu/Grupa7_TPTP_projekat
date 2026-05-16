@@ -405,7 +405,7 @@ document.addEventListener('DOMContentLoaded', function () {
       sveGreske.forEach(function (g) {
         if (g) g.textContent = '';
       });
-
+       
       // Resetuj brojač
       if (brojanikEl2) {
         brojanikEl2.textContent = '0 / 20 znakova minimalno';
