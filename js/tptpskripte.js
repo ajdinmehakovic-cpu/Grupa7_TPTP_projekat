@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (document.body.classList.contains('light-mode')) {
         localStorage.setItem('apex-mod', 'light');
       } else {
-        localStorage.setItem('apex-mod', 'dark'); 
+        localStorage.setItem('apex-mod', 'dark');
       }
     });
   }
@@ -405,7 +405,7 @@ document.addEventListener('DOMContentLoaded', function () {
       sveGreske.forEach(function (g) {
         if (g) g.textContent = '';
       });
-       
+
       // Resetuj brojač
       if (brojanikEl2) {
         brojanikEl2.textContent = '0 / 20 znakova minimalno';
