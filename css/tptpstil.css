@@ -216,20 +216,25 @@ h6 {
 .glavni-meni a.aktivan {
   color: var(--boja-primarna);
 }
-
 .github-link {
-  display: flex;
+  display: inline-flex; 
   align-items: center;
   gap: 6px;
-  background: var(--boja-povrsina);
+  background: var(--boja-povrsina, #333);
   padding: 6px 12px !important;
-  border-radius: var(--radius) !important;
+  border-radius: var(--radius, 8px) !important;
   font-size: 0.8rem !important;
+  text-decoration: none !important; /* Skida podvlačenje */
+  color: inherit; /* Uzima boju teksta od roditelja */
+  cursor: pointer !important;
+  position: relative;
+  z-index: 10;
 }
 
 .github-link:hover {
-  background: var(--boja-primarna) !important;
-  color: var(--boja-tamna) !important;
+  background: var(--boja-primarna, #ffcc00) !important;
+  color: var(--boja-tamna, #000) !important;
+  transition: 0.3s; /* Da ljepše izgleda */
 }
 
 /* ===== ZAGLAVLJE DESNO (dark mode + social) ===== */
